@@ -80,7 +80,7 @@ Here is an example of how you can use this module in your inventory structure:
 | enable\_security\_group | Enable default Security Group with only Egress traffic allowed. | `bool` | `true` | no |
 | environment | Environment (e.g. `prod`, `dev`, `staging`). | `string` | `""` | no |
 | label\_order | Label order, e.g. `name`,`application`. | `list` | `[]` | no |
-| managedby | ManagedBy, eg 'DevOps4Me' or 'NajibRadzuan'. | `string` | `"anmol@devops4me.com"` | no |
+| managedby | ManagedBy, eg 'DevOps4Me' or 'NajibRadzuan'. | `string` | `"najibradzuan@devops4me.com"` | no |
 | name | Name  (e.g. `app` or `cluster`). | `string` | `""` | no |
 | prefix\_list | List of prefix list IDs (for allowing access to VPC endpoints)Only valid with egress | `list` | `[]` | no |
 | protocol | The protocol. If not icmp, tcp, udp, or all use the. | `string` | `"tcp"` | no |
